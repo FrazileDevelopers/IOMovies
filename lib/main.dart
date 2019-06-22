@@ -44,6 +44,11 @@ class _IOMovState extends State<IOMov> {
             ),
           ),
         ),
+        body: Center(
+          child: Text(
+            topRated.results[0].posterPath
+          ),
+        ),
       );
 
   final String baseUrl = "https://api.themoviedb.org/3/";
